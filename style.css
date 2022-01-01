@@ -1,0 +1,43 @@
+h1 {
+    color: rgb(165, 67, 42);
+    text-align: center;
+}
+
+/* {
+    border: solid;
+}*/
+
+.header{
+    background-color: rgb(223, 184, 157);
+    /*display: flex;*/
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.run{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.som{
+    /*background-color: rgb(181, 199, 146);*/
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+p,h2{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
